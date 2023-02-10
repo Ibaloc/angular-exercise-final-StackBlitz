@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { UpperCaseInputDirective } from './input.directive';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { UppercaseDirective } from './input.directive';
 
 @NgModule({
   imports: [
@@ -11,7 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ReactiveFormsModule,
     BrowserAnimationsModule,
   ],
-  declarations: [UpperCaseInputDirective],
+  declarations: [UppercaseDirective],
   bootstrap: [],
 })
 export class AppModule {}

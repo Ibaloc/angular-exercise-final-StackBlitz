@@ -8,9 +8,9 @@ import { bootstrapApplication } from '@angular/platform-browser';
   standalone: true,
   imports: [CommonModule],
   template: `
-    {{name}} Exercise!
+    <b>{{name}} Exercise!</b>
     <div style = "margin-top: 0px">
-        by Moe Q.
+        <b>Moe Q</b>.
     </div>
   `,
 })

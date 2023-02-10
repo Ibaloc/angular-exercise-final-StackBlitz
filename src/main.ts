@@ -16,8 +16,21 @@ import { bootstrapApplication } from '@angular/platform-browser';
 })
 export class App {
   name = 'Angular';
-  alpha = 'ABC';
-  beta = 'xyz';
 }
+
+var alpha = 'ABC';
+var beta = 'xyz';
+var result = '';
+
+for (let i = 0; i < alpha.length; i++) {
+  for (let j = 0; j < beta.length; j++) {
+    result = result + '"' + alpha[i] + beta[j] + '"' + ', ';
+  }
+}
+
+document.getElementById('lblresult').innerHTML = result.substring(
+  0,
+  result.length - 2
+);
 
 bootstrapApplication(App);

@@ -30,7 +30,7 @@ export class App {
 }
 
 var alpha = 'ABC';
-var beta = 'xyz';
+var beta = 'yxz';
 var result = '';
 
 for (let i = 0; i < alpha.length; i++) {

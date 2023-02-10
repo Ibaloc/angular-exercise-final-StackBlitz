@@ -9,6 +9,9 @@ import { bootstrapApplication } from '@angular/platform-browser';
   imports: [CommonModule],
   template: `
     <h1>{{name}} Exercise!</h1>
+    <div style = "margin-left: 40px; margin-top: 0px">
+        by Moe Q.
+    </div>
   `,
 })
 export class App {
